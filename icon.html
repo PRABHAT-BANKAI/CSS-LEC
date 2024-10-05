@@ -1,0 +1,121 @@
+<!-- Font Awesome & SVG Icon Favicon
+Background
+Color, Gradirents, Position, Size, Attachment, Repeat, Image, Background-Blend- Mode -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <!-- favicon  favourite icon -->
+    <link rel="icon" href="./image.jpeg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 1, "wght" 900, "GRAD" 0, "opsz" 4;
+      }
+      .text-background-color {
+        background-color: yellow;
+      }
+      div {
+        width: 900px;
+        height: 300px;
+        border: 1px solid black;
+      }
+      .linear {
+        background: linear-gradient(to right, red, green, yellow);
+      }
+      .radial {
+        background: radial-gradient(
+          rgb(192, 213, 33),
+          rgb(31, 201, 213),
+          rgb(187, 28, 55)
+        );
+      }
+      .conic {
+        background: conic-gradient(blue, red, green);
+        background: linear-gradient(
+          90deg,
+          rgba(131, 58, 180, 1) 0%,
+          rgba(50, 126, 210, 1) 50%,
+          rgba(252, 176, 69, 1) 100%
+        );
+      }
+      .background-position {
+        background-image: url(https://m.media-amazon.com/images/I/8157jzWk-8L._SX522_.jpg);
+        background-image: url(./image.jpeg);
+        background-repeat: repeat-y;
+        /* background-position:bottom ; */
+        /* background-size: contain;
+        background-size: cover; */
+        /* background-attachment:fixed ; */
+        background-color: yellow;
+        background-blend-mode: exclusion;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- depricrated tag  avoid tag-->
+
+    <!-- <b>bold</b>
+    <i>italic</i> -->
+    <!-- <div>   //block element
+      <h1>heading</h1>
+      <h1>heading 2</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam,
+        sunt numquam voluptates possimus alias ullam ex! Libero dolores minus
+        magni, eligendi voluptates ad ducimus deleniti, iste quas ea asperiores.
+      </p>
+    </div> -->
+    <span class="material-symbols-outlined"> settings </span>
+    <i class="fa-solid fa-igloo fa-2xl fa-shake"></i>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="14"
+      width="15.75"
+      viewBox="0 0 576 512"
+    >
+      6.6.0 by @fontawesome - https://fontawesome.com License -
+      https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+      <path
+        d="M320 33.8L320 160 48.5 160C100.2 82.8 188.1 32 288 32c10.8 0 21.5 .6 32 1.8zM352 160l0-120.9C424.9 55.7 487.2 99.8 527.5 160L352 160zM29.9 192L96 192l0 128L0 320c0-46 10.8-89.4 29.9-128zM192 320l-64 0 0-128 320 0 0 128-64 0 0 32 192 0 0 80c0 26.5-21.5 48-48 48l-176 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128L48 480c-26.5 0-48-21.5-48-48l0-80 192 0 0-32zm288 0l0-128 66.1 0c19.2 38.6 29.9 82 29.9 128l-96 0z"
+      />
+    </svg>
+
+    <p>
+      Lorem ipsum dolor sit amet
+      <span class="text-background-color">consectetur</span> adipisicing elit.
+      Quae dolorem eos nisi laborum mollitia. Neque, obcaecati laboriosam
+      ducimus nihil, odio debitis ullam sed doloremque aspernatur impedit porro
+      dignissimos? Deleniti, facere.
+    </p>
+    <p>linear gradient</p>
+    <div class="linear"></div>
+    <p>radial gradient</p>
+    <div class="radial"></div>
+    <p>conic gradient</p>
+    <div class="conic"></div>
+    <p>background position</p>
+    <div class="background-position">Background Positon</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>

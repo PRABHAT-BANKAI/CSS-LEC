@@ -1,0 +1,85 @@
+<!-- Use Of Internal Cssfont
+Family-Font, Font-Size, Color, Font-Weight, Text-Align, Line-Height, Letter-Spacing, Word-Spacing, Text-Decoration, Font-Style, Text- Transform, Text-Indent
+
+Online Font Attachment -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
+    <!-- internal CSS -->
+    <style>
+      .family-font {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .font-size {
+        font-size: 25px;
+        color: crimson;
+      }
+      .text-weight {
+        font-weight: 500;
+      }
+      .text-align {
+        text-align: right;
+      }
+      .text-height {
+        line-height: 76px;
+        background-color: yellow;
+      }
+      .spacing {
+        letter-spacing: 20px;
+        word-spacing: 45px;
+        text-decoration: underline;
+        text-decoration: line-through;
+        text-decoration: overline;
+        font-style: italic;
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
+      }
+      .text-indent {
+        text-indent: 35px;
+      }
+      .sixtyfour-convergence-google-font {
+        font-family: "Sixtyfour Convergence", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="family-font font-size text-weight">family-font</p>
+    <p class="font-size">font-size</p>
+    <p class="text-weight">text-weight</p>
+    <p class="text-align">text-align</p>
+    <p class="text-height">text-height</p>
+    <p class="spacing">hello world</p>
+    <p class="text-indent sixtyfour-convergence-google-font">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+      cupiditate minus molestiae unde doloremque in eveniet commodi. Magni aut
+      illo maiores dignissimos modi consequatur excepturi tempora iure numquam,
+      deserunt libero.
+    </p>
+  </body>
+</html>
+
+<!-- 
+bad technic
+<style>
+  .text-height{
+    line-height: 177px;
+  }
+</style> -->
+
+<!-- camelCase = firstName
+ snake_case = first_name -->

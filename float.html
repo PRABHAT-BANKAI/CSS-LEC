@@ -1,0 +1,84 @@
+<!-- Float PropertyFloat (Left,Right),
+  Clear:Both,
+   Calc()
+   Image Attach In Html(Object-Fit, Object Position) -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        float: left;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        float: left;
+        font-size: 55px;
+        /* text-align: center; */
+        padding: 66px;
+      }
+      p {
+        /* clear: left; */
+        clear: both;
+      }
+      .clear {
+        clear: both;
+      }
+      .cont {
+        height: 200px;
+        width: calc(100% - 300px);
+        background-color: green;
+      }
+      img{
+        height: 400px;
+        width: 400px;
+        object-fit: contain;
+        object-fit: cover;
+        object-position:bottom ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1"></div>
+    <div class="box2">♕</div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="clear"></div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="clear"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="clear"></div>
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, autem,
+      ab corrupti voluptate ratione labore veniam ea, hic enim eius placeat
+      beatae animi harum? Minus repellat facilis adipisci facere commodi!
+    </p> -->
+    <div class="cont"></div>
+    <img src="./image.jpeg" alt="">
+  </body>
+</html>
